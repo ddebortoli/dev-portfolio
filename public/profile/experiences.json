@@ -1,33 +1,77 @@
 {
     "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
+      {
+        "title": "Backend Developer",
+        "subtitle": "Chaindots | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Designed and implemented robust API endpoints and backend logic aligned with product growth using Django and Django Ninja.",
+          "Optimized integrations with third-party provider solutions, supporting evolving business requirements while maintaining data integrity and high system reliability.",
+          "Developed production-ready backend features with strong alignment to product roadmap timelines, utilizing Bitbucket and Docker for version control and containerization.",
+          "Administered and tuned relational database structures, enhancing performance for data-intensive application functions.",
+          "Drove adoption of containerization practices to achieve consistent and streamlined deployments across staging and production environments.",
+          "Conducted rigorous code reviews, delivering actionable technical feedback to support maintainable and scalable codebase evolution.",
+          "Leveraged LLM-powered tools such as ChatGPT and Cursor to accelerate CRUD development, enhance technical documentation, and uplift development productivity."
+        ],
+        "dateText": "Oct 2024 – Jul 2025"
+      },
+      {
+        "title": "Python Automation Engineer",
+        "subtitle": "123Seguro | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Built automation scripts that streamlined critical internal workflows using Selenium for web scraping and Pandas for data parsing.",
+          "Engineered integrations between APIs and relational databases to consolidate and report business data with improved accuracy and timeliness.",
+          "Migrated legacy test suites from Robot Framework to Python, introducing standardization and improving overall QA coverage.",
+          "Developed CI/CD pipeline automation scripts using Jenkins, supporting smoother, more predictable deployment cycles.",
+          "Designed and executed comprehensive unit and integration tests using Pytest to safeguard application reliability.",
+          "Implemented asynchronous processing via Celery, Redis, and asyncio, increasing backend throughput for high-performance data tasks.",
+          "Explored integration of LLMs (such as ChatGPT) for backend automation and internal tool enhancements, driving innovative use of AI technologies.",
+          "Collaborated actively in agile teams leveraging Jira, Bitbucket, Confluence, and Postman."
+        ],
+        "dateText": "Apr 2023 – Oct 2024"
+      },
+      {
+        "title": "Salesforce, Python Developer",
+        "subtitle": "Cambalache Technologies | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Developed orchestrated REST APIs as middleware connecting Salesforce, ERP, and relational database environments for seamless data flow.",
+          "Collaborated on extensive Salesforce API projects and created Flask/FastAPI endpoints, implementing robust API Key authentication.",
+          "Engineered and deployed solutions using AWS services including EC2, Lambda, S3, SQS, and RDS.",
+          "Automated complex operations such as PDF generation from business templates and custom email notification workflows.",
+          "Leveraged GitHub for version control alongside agile methodologies using Confluence for technical planning.",
+          "Implemented and maintained test automation using Pytest, steadily improving code quality and system reliability.",
+          "Delivered Lightning Web Components (LWC) for Salesforce and managed third-party integrations with external platforms such as MercadoLibre."
+        ],
+        "dateText": "Feb 2022 – Apr 2023"
+      },
+      {
+        "title": "Technical Leader",
+        "subtitle": "EXISOFT | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Promoted to lead two software teams, guiding four developers plus functional analysts and shared QA support resources.",
+          "Oversaw code reviews, onboarding, and documentation processes to cultivate a culture of best practices and technical excellence.",
+          "Mentored junior engineers, sharing knowledge on advanced Python and integration techniques.",
+          "Played a key role in architectural discussions, ensuring robust, scalable solutions fit for production.",
+          "Enhanced team efficiency by setting clear guidelines and facilitating partnerships with cross-functional stakeholders."
+        ],
+        "dateText": "Feb 2021 – Feb 2022"
+      },
+      {
+        "title": "Integration Developer",
+        "subtitle": "EXISOFT | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Designed and developed microservices and integration layers, delivering REST (Swagger/OpenAPI) and SOAP (WSDL/XML) endpoints.",
+          "Implemented complex business logic that interfaced with both MySQL databases and various external APIs.",
+          "Utilized IBM WebSphere MQ, MySQL Server, SOAP UI, Postman, TeamCity, and GitLab for a streamlined integration workflow.",
+          "Automated internal business processes via Python scripting, such as email-to-Telegram notifications and fraud-prevention prototypes leveraging IBM Watson.",
+          "Set standardized error handling and created development templates, expediting onboarding and service delivery."
+        ],
+        "dateText": "Jan 2020 – Feb 2021"
+      }
     ]
-}
+  }
+  

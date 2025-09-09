@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio_app
+    ports:
+      - "3000:80"   # Localhost:3000 apuntando a Nginx:80
+    environment:
+      - NODE_OPTIONS=--openssl-legacy-provider
+    volumes:
+      - .:/app      # Montaje para desarrollo (opcional)
+      - /app/node_modules
+    stdin_open: true
+    tty: true

@@ -1,149 +1,110 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
+            "title": "My network",
+            "bodyText": "- Centralize your business relationships for smarter, more agile, and stronger connections.\n- Transform the way you manage your business ecosystem by centralizing **prospects**, **clients**, **partners**, and **vendors** into a dynamic, **data-driven** view.\n- Gain deeper insights and make **strategic decisions** with ease.\n - **PROPERTY OF CHAINDOTS**",
             "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+                "Django ninja",
+                "Django rest framework"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "title": "StockPic",
+            "bodyText": "- An inventory visualization tool that reads stock data from **Excel** or **Google Sheets** and updates corresponding product images with the available stock.\n - Automatically overlays stock numbers on images using **Python Pillow**.\n - Supports batch processing for multiple products and exports updated images to a designated folder.\n - Can be integrated into existing workflows for e-commerce or inventory management.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Ask for a demo",
+                    "href": "mailto:developer.ddebortoli@gmail.com.com?subject=Demo%20StockPic"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Pillow",
+                "Google API"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "Sales bot",
+            "bodyText": "- A Telegram bot that **responds to user commands** and handles interactions seamlessly.\n - Integrated with a **payment gateway** to process transactions securely.\n - Supports automated responses, notifications, and custom workflows for enhanced user experience.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/ddebortoli/sales-cakery-bot"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "FastAPI",
+                "Mercadopago",
+                "Telegram",
+                "Payments"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "Colppy + Hubspot + Powerbi integration",
+            "bodyText": "- A workflow integration connecting **Colppy**, **HubSpot**, and **Power BI** to streamline data flow.\n - Automates extraction, transformation, and visualization of financial and CRM data.\n - Enables real-time dashboards and actionable insights for smarter business decisions.",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "FastAPI",
+                "Powerbi"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "title": "Music downloader",
+            "bodyText": "- A web application to **download music from YouTube** quickly and efficiently.\n - Supports multiple formats and automatic conversion to **MP3**.\n - Provides a simple, user-friendly interface for seamless downloading.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": "https://github.com/ddebortoli/youtube-music-download"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "Django ninja"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "title": "Url life checker",
+            "bodyText": "- A web application to **monitor and verify the status** of any given URL.\n - Performs real-time checks and returns **HTTP status codes** with response details.\n - Useful for uptime monitoring, debugging, and ensuring service availability.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "href": "https://github.com/ddebortoli/url-checker-app"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Django rest framework",
+                "Redis",
+                "Celery"
             ]
         },
         {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
+            "title": "ai-telegram-bot",
+            "bodyText": "- Developed a **Telegram chatbot** for expense tracking with automatic categorization using **AI**.\n- Built with two **Python services** working together to provide a seamless expense management experience.\n- Enables users to log expenses in real time and receive smart insights for better financial management.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
+                    "href": "https://github.com/ddebortoli/ai-telegram-bot"
                 }
             ],
             "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
+                "LLM",
+                "IA",
+                "FastAPI"
             ]
         },
         {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
+            "title": "social-media-api",
+            "bodyText": "- Built a modern, scalable **social media API** using **Django REST Framework**.\n- Designed following **SOLID principles** and implemented industry best practices for **enterprise-level applications**.\n- Includes features such as authentication, user interactions, and optimized database queries to ensure performance and maintainability.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "href": "https://github.com/ddebortoli/social-media-api"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Django rest framework",
+                "CRUD",
+                "Docker"
             ]
         }
     ]

@@ -1,19 +1,19 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Mar 2013 - Dec 2018",
+            "cardTitle": "System technician, Computer Science",
+            "cardSubtitle":"N°1 Technical school Engeenier 'Otto krause', CABA",
+            "cardDetailedText": "",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/otto_krause.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Jul 2021 - Dec 2021",
+            "cardTitle": "Data analyst",
+            "cardSubtitle":"Coderhouse, CABA",
+            "cardDetailedText": ""
         }
     ]
 }
