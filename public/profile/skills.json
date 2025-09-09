@@ -38,7 +38,7 @@
             "title" : "Frameworks & Integrations & Libraries",
             "items": [
                 {
-                    "icon": "images/skills/Django.png",
+                    "icon": "images/skills/django.png",
                     "title": "Django"
                 },
                 {
@@ -62,7 +62,7 @@
                     "title": "Pandas"
                 },
                 {
-                    "icon": "images/skills/Telegram.png",
+                    "icon": "images/skills/telegram.png",
                     "title": "Telegram"
                 },
                 {
