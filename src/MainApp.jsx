@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
+import ProjectDetail from './components/ProjectDetail';
 import endpoints from './constants/endpoints';
 
 function MainApp() {
@@ -24,11 +25,13 @@ function MainApp() {
         <Switch>
           <Suspense fallback={<FallbackSpinner />}>
             <Route exact path="/" component={Home} />
+            <Route path="/projects/:slug" component={ProjectDetail} />
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));
                 return (
                   <Route
+                    exact
                     key={route.headerTitle}
                     path={route.path}
                     component={() => (
