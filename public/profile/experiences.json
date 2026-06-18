@@ -2,6 +2,23 @@
     "experiences": [
       {
         "title": "Backend Developer",
+        "subtitle": "Vordentech | Ciudad Autónoma de Buenos Aires, Argentina",
+        "workType": "Full-time",
+        "workDescription": [
+          "Designed and implemented integrations between ERP systems and backend services, enabling reliable synchronization of business-critical information across multiple platforms.",
+          "Evaluated and demonstrated Enterprise Service Bus (ESB) solutions using WSO2, defining integration strategies, service orchestration flows, and API mediation approaches for enterprise environments.",
+          "Developed an AI-powered Streamlit application that analyzes and compares public entities based on sentiment and opinions extracted from X (Twitter) user-generated content.",
+          "Built data processing pipelines leveraging NLP and Large Language Models (LLMs) to classify, summarize, and generate insights from large volumes of unstructured social media data.",
+          "Contributed to the development of a meeting intelligence platform inspired by ReadAI, implementing backend services for transcription workflows, AI-generated summaries, action-item extraction, and meeting analytics.",
+          "Designed and developed scalable backend services and REST APIs for analytics platforms, supporting data ingestion, transformation, reporting, and business intelligence capabilities.",
+          "Optimized database performance, application reliability, and observability through efficient query design, structured logging, and monitoring practices.",
+          "Collaborated with cross-functional teams to translate business requirements into scalable technical solutions while maintaining high standards for code quality and system maintainability.",
+          "Leveraged AI-assisted development tools such as ChatGPT and Cursor to accelerate implementation, documentation, and solution prototyping."
+        ],
+        "dateText": "Jul 2025 – Present"
+      },
+      {
+        "title": "Backend Developer",
         "subtitle": "Chaindots | Ciudad Autónoma de Buenos Aires, Argentina",
         "workType": "Full-time",
         "workDescription": [

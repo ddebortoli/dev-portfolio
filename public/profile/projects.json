@@ -1,6 +1,56 @@
 {
     "projects": [
         {
+            "title": "La Cuentita",
+            "slug": "la-cuentita",
+            "bodyText": "- Offline-first shared expense manager inspired by **Tricount**.\n- Works entirely without internet and synchronizes optionally through a self-hosted backend.\n- Uses UUID-based events, idempotent synchronization, and full audit history to prevent data loss and duplicates.",
+            "status": "Private",
+            "image": "images/projects/la-cuentita/banner_la_cuentita_v5.png",
+            "links": [
+                {
+                    "text": "play store (cooming soon)",
+                    "href": "https://play.google.com/store/apps/details?id=com.ddebortoli.lacuentita",
+                    "type": "playstore"
+                }
+            ],
+            "detailUrl": "/projects/la-cuentita",
+            "subtitle": "Offline-first shared expense manager with optional synchronization and complete auditability.",
+            "detailDescription": "- Built around the principle that user data belongs to the device, not the server.\n- All operations are persisted locally in **SQLite**, allowing the application to work completely offline.\n- Shared groups synchronize asynchronously through a **FastAPI** backend and **PostgreSQL**, while local groups remain fully independent.\n- Groups can be converted between local and shared modes by creating independent copies, ensuring no unwanted coupling.\n- Synchronization uses UUID-based events and idempotent processing to guarantee duplicate-free retries and robustness against connectivity failures.\n- Balances are calculated dynamically instead of being stored, ensuring consistency across devices.\n- Maintains a complete activity log and soft-delete history for auditing, debugging, and conflict resolution.\n- Supports JSON export/import for backups, migration, and disaster recovery.\n- Designed to prioritize reliability, offline availability, and user ownership of data.",
+            "screenshots": [
+                {
+                    "src": "images/projects/la-cuentita/screenshot_1.jpg",
+                    "type": "mobile"
+                },
+                {
+                    "src": "images/projects/la-cuentita/screenshot_2.jpg",
+                    "type": "mobile"
+                },
+                {
+                    "src": "images/projects/la-cuentita/screenshot_3.jpg",
+                    "type": "mobile"
+                },
+                {
+                    "src": "images/projects/la-cuentita/screenshot_4.jpg",
+                    "type": "mobile"
+                },
+                {
+                    "src": "images/projects/la-cuentita/screenshot_5.jpg",
+                    "type": "mobile"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "SQLite",
+                "FastAPI",
+                "PostgreSQL",
+                "Offline First",
+                "UUID",
+                "Event Sourcing",
+                "JSON",
+                "Audit Log"
+            ]
+        },
+        {
             "title": "ARCA + MercadoPago integration",
             "slug": "arca-mp",
             "bodyText": "- Automated billing system that listens to **MercadoPago** payment notifications and issues invoices through **ARCA (AFIP)**.\n- Notifies via **Telegram** with full payment details — confirm, reject, or postpone with one tap.\n- Handles CAE generation, comprobante numbering, and due dates automatically.",
@@ -17,8 +67,14 @@
             "subtitle": "Automated billing system that connects MercadoPago payments with ARCA (AFIP) invoicing — fully managed from Telegram.",
             "detailDescription": "- Listens to MercadoPago webhook notifications in real time and triggers the invoicing flow automatically.\n- Sends a Telegram message with full payment details (amount, payer, concept) and lets you **confirm, reject, or postpone** each invoice with one tap.\n- On confirmation, generates the invoice in **ARCA (AFIP)**, obtains the CAE, assigns the comprobante number and due date — all without manual intervention.\n- Designed for **freelancers and small businesses** that want to eliminate manual invoicing overhead while staying compliant with Argentine fiscal regulations.\n- Built with **FastAPI** for the webhook listener and a separate service for ARCA integration, communicating asynchronously.",
             "screenshots": [
-                { "src": "images/projects/arca-mp.png", "type": "mobile" },
-                { "src": "images/projects/arca-mp-app-1.jpg", "type": "mobile" }
+                {
+                    "src": "images/projects/arca-mp.png",
+                    "type": "mobile"
+                },
+                {
+                    "src": "images/projects/arca-mp-app-1.jpg",
+                    "type": "mobile"
+                }
             ],
             "tags": [
                 "FastAPI",
@@ -162,6 +218,5 @@
                 "Docker"
             ]
         }
-        
     ]
 }
