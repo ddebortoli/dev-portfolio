@@ -3,7 +3,7 @@
         {
             "title": "La Cuentita",
             "slug": "la-cuentita",
-            "bodyText": "- Offline-first shared expense manager inspired by **Tricount**.\n- Works entirely without internet and synchronizes optionally through a self-hosted backend.\n- Uses UUID-based events, idempotent synchronization, and full audit history to prevent data loss and duplicates.",
+            "bodyText": "- Offline-first shared expense manager.\n- Works entirely without internet and synchronizes optionally through a self-hosted backend.\n- Uses UUID-based events, idempotent synchronization, and full audit history to prevent data loss and duplicates.",
             "status": "Private",
             "image": "images/projects/la-cuentita/banner_la_cuentita_v5.png",
             "links": [
