@@ -171,7 +171,6 @@ const statusVariant = {
 };
 
 const ProjectDetail = () => {
-  console.log('ProjectDetail montado');
   const { slug } = useParams();
   const history = useHistory();
   const theme = useContext(ThemeContext);
@@ -219,7 +218,6 @@ const ProjectDetail = () => {
     fetch(endpoints.projects, { method: 'GET' })
       .then((res) => res.json())
       .then((res) => {
-        console.log('slug:', slug, 'slugs:', res.projects?.map((p) => p.slug));
         const found = res.projects?.find((p) => p.slug === slug);
         if (found) {
           setProject(found);
