@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
+import { Analytics } from '@vercel/analytics/react';
 import useDarkMode from 'use-dark-mode';
 import AppContext from './AppContext';
 import MainApp from './MainApp';
@@ -21,6 +22,7 @@ function App() {
           <BrowserRouter>
             <MainApp />
           </BrowserRouter>
+          <Analytics />
         </div>
       </ThemeProvider>
     </AppContext.Provider>
