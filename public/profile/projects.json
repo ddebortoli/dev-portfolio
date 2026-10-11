@@ -14,6 +14,7 @@
                 }
             ],
             "detailUrl": "/projects/la-cuentita",
+            "privacyUrl": "/projects/la-cuentita/privacy/",
             "subtitle": "Offline-first shared expense manager with optional synchronization and complete auditability.",
             "detailDescription": "- Built around the principle that user data belongs to the device, not the server.\n- All operations are persisted locally in **SQLite**, allowing the application to work completely offline.\n- Shared groups synchronize asynchronously through a **FastAPI** backend and **PostgreSQL**, while local groups remain fully independent.\n- Groups can be converted between local and shared modes by creating independent copies, ensuring no unwanted coupling.\n- Synchronization uses UUID-based events and idempotent processing to guarantee duplicate-free retries and robustness against connectivity failures.\n- Balances are calculated dynamically instead of being stored, ensuring consistency across devices.\n- Maintains a complete activity log and soft-delete history for auditing, debugging, and conflict resolution.\n- Supports JSON export/import for backups, migration, and disaster recovery.\n- Designed to prioritize reliability, offline availability, and user ownership of data.",
             "screenshots": [

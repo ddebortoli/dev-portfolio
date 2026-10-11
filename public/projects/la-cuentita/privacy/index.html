@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacidad y condiciones — La Cuentita</title>
+  <meta name="description" content="Política de privacidad y condiciones de uso de La Cuentita. Privacy policy and terms of use." />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #121212;
+      --fg: #eee;
+      --muted: #aaa;
+      --link: #8fceff;
+      --bar: #1b1b1b;
+      --border: rgba(255, 255, 255, 0.16);
+    }
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg: #fff;
+      --fg: #121212;
+      --muted: #555;
+      --link: #1d4e2a;
+      --bar: #f4f4f4;
+      --border: rgba(0, 0, 0, 0.12);
+    }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--fg);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    .bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 0.85rem 1.25rem;
+      background: var(--bar);
+      border-bottom: 1px solid var(--border);
+      font-family: system-ui, sans-serif;
+      position: sticky;
+      top: 0;
+    }
+    .controls { display: flex; gap: 8px; align-items: center; }
+    button, .bar a {
+      font: inherit;
+      font-size: 0.85rem;
+      color: var(--fg);
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.25rem 0.7rem;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    button[aria-pressed="true"] {
+      font-weight: 700;
+      border-color: var(--fg);
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    a { color: var(--link); }
+    h1, h2 { font-family: system-ui, sans-serif; line-height: 1.25; }
+    h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .updated { color: var(--muted); font-family: system-ui, sans-serif; font-size: 0.9rem; }
+    ul { padding-left: 1.2rem; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <a href="/projects/la-cuentita">← La Cuentita</a>
+    <div class="controls">
+      <button type="button" id="lang-es" aria-pressed="true">Español</button>
+      <button type="button" id="lang-en" aria-pressed="false">English</button>
+      <button type="button" id="theme" aria-pressed="true">Claro</button>
+    </div>
+  </div>
+  <main>
+    <article id="copy-es" lang="es">
+      <h1>Política de privacidad</h1>
+      <p class="updated">La Cuentita · vigente desde el 11 de octubre de 2026</p>
+      <p>
+        La Cuentita es una aplicación para anotar gastos compartidos.
+        La desarrolla <strong>Damian Debortoli</strong>. Esta página explica qué
+        datos se guardan, para qué se usan y con quién se comparten.
+      </p>
+
+      <h2>Datos que quedan en el teléfono</h2>
+      <p>
+        Sin una cuenta, los grupos, gastos, participantes, contactos y el
+        <strong>número de cuenta bancaria o alias</strong> se guardan solo en el
+        dispositivo, en una base local. Esos datos no se envían a un servidor.
+      </p>
+      <p>
+        Las <strong>notas privadas</strong> de un participante tampoco salen del
+        teléfono, aunque el grupo sea compartido.
+      </p>
+
+      <h2>Datos de la cuenta de Google</h2>
+      <p>
+        Entrar con Google es opcional. Hace falta solo para crear o unirse a un
+        grupo compartido. En ese caso, Google nos entrega el correo, el nombre y
+        un identificador de la cuenta. Los usamos para crear la cuenta en La
+        Cuentita y reconocer a la misma persona la próxima vez que entra.
+      </p>
+      <p>No pedimos ni guardamos la contraseña de Google.</p>
+
+      <h2>Datos que se sincronizan en un grupo compartido</h2>
+      <p>
+        Si el grupo es compartido, estos datos se envían al servidor de La
+        Cuentita para que las demás personas del grupo los vean:
+      </p>
+      <ul>
+        <li>nombre y apodo;</li>
+        <li>número de cuenta bancaria o alias, si lo cargaste;</li>
+        <li>correo de contacto y nota pública, si los cargaste;</li>
+        <li>gastos, participantes, balances y el historial de actividad del grupo.</li>
+      </ul>
+      <p>
+        Quien integra ese grupo puede ver esos datos. El número de cuenta o alias
+        se muestra para que el grupo sepa cómo pagarte. No lo usamos para cobrar
+        ni para hacer transferencias.
+      </p>
+
+      <h2>Para qué se usan</h2>
+      <p>
+        Los datos se usan para llevar las cuentas del grupo, calcular quién debe
+        y a quién, y sincronizar los grupos compartidos entre dispositivos.
+        <strong>No se venden. No se usan para publicidad.</strong> La aplicación
+        no muestra anuncios.
+      </p>
+
+      <h2>Con quién se comparten</h2>
+      <ul>
+        <li><strong>Google</strong>, únicamente para el ingreso con Google.</li>
+        <li>
+          <strong>El servidor de La Cuentita</strong>, operado por Damian
+          Debortoli, para guardar y sincronizar los grupos compartidos.
+        </li>
+        <li>
+          <strong>Las demás personas del grupo compartido</strong>, que ven los
+          datos de ese grupo, incluido el número de cuenta o alias si lo cargaste.
+        </li>
+      </ul>
+      <p>No se comparten datos con redes publicitarias ni con corredores de datos.</p>
+
+      <h2>Conservación y borrado</h2>
+      <p>
+        Los datos locales se borran si desinstalás la aplicación o si borrás el
+        grupo en el teléfono. Los datos de un grupo compartido se conservan
+        mientras el grupo exista.
+      </p>
+      <p>
+        Para pedir el borrado de tu cuenta y de los datos asociados en el
+        servidor, escribinos a
+        <a href="mailto:developer.ddebortoli@gmail.com">developer.ddebortoli@gmail.com</a>.
+      </p>
+
+      <h2>Menores</h2>
+      <p>La Cuentita no está dirigida a niños.</p>
+
+      <h2>Cambios</h2>
+      <p>
+        Si esta política cambia, la versión nueva se publica en esta misma
+        página, con la fecha actualizada.
+      </p>
+
+      <h2 id="condiciones">Condiciones de uso</h2>
+      <p>
+        La Cuentita sirve para anotar y repartir gastos. <strong>No mueve dinero</strong>,
+        no hace transferencias y no reemplaza el acuerdo entre las personas del grupo.
+      </p>
+      <ul>
+        <li>Los grupos locales son tuyos y quedan en tu teléfono.</li>
+        <li>
+          En un grupo compartido, quien lo crea puede borrarlo para todo el grupo.
+          Quien fue invitado puede irse; eso no borra al grupo ni a su participante
+          para el resto.
+        </li>
+        <li>
+          El número de cuenta o alias que cargues es visible para el grupo.
+          Cargá solo el dato que quieras compartir.
+        </li>
+        <li>
+          La aplicación se ofrece tal como está. Los balances son una ayuda para
+          el grupo, no un registro contable ni legal.
+        </li>
+      </ul>
+      <p>
+        Consultas sobre estas condiciones:
+        <a href="mailto:developer.ddebortoli@gmail.com">developer.ddebortoli@gmail.com</a>.
+      </p>
+    </article>
+
+    <article id="copy-en" lang="en" hidden>
+      <h1>Privacy policy</h1>
+      <p class="updated">La Cuentita · effective 11 October 2026</p>
+      <p>
+        La Cuentita is an app for tracking shared expenses. It is developed by
+        <strong>Damian Debortoli</strong>. This page explains what data is stored,
+        what it is used for, and who it is shared with.
+      </p>
+
+      <h2>Data that stays on the phone</h2>
+      <p>
+        Without an account, groups, expenses, participants, contacts, and the
+        <strong>bank account number or alias</strong> are stored only on the
+        device, in a local database. That data is not sent to a server.
+      </p>
+      <p>
+        A participant’s <strong>private notes</strong> also stay on the phone,
+        even in a shared group.
+      </p>
+
+      <h2>Google account data</h2>
+      <p>
+        Signing in with Google is optional. It is required only to create or join
+        a shared group. Google then provides the email address, the name, and an
+        account identifier. We use them to create the La Cuentita account and to
+        recognize the same person the next time they sign in.
+      </p>
+      <p>We do not ask for or store the Google password.</p>
+
+      <h2>Data synced in a shared group</h2>
+      <p>
+        In a shared group, this data is sent to the La Cuentita server so the
+        other people in the group can see it:
+      </p>
+      <ul>
+        <li>name and nickname;</li>
+        <li>bank account number or alias, if you added one;</li>
+        <li>contact email and public note, if you added them;</li>
+        <li>expenses, participants, balances, and the group activity log.</li>
+      </ul>
+      <p>
+        Anyone in that group can see that data. The account number or alias is
+        shown so the group knows how to pay you. We do not use it to collect
+        money or to make transfers.
+      </p>
+
+      <h2>What the data is used for</h2>
+      <p>
+        The data is used to keep the group’s accounts, work out who owes whom,
+        and sync shared groups across devices.
+        <strong>It is not sold. It is not used for advertising.</strong>
+        The app does not show ads.
+      </p>
+
+      <h2>Who it is shared with</h2>
+      <ul>
+        <li><strong>Google</strong>, only for Google sign-in.</li>
+        <li>
+          <strong>The La Cuentita server</strong>, operated by Damian Debortoli,
+          to store and sync shared groups.
+        </li>
+        <li>
+          <strong>The other people in the shared group</strong>, who can see that
+          group’s data, including the account number or alias if you added one.
+        </li>
+      </ul>
+      <p>Data is not shared with ad networks or data brokers.</p>
+
+      <h2>Retention and deletion</h2>
+      <p>
+        Local data is removed if you uninstall the app or delete the group on the
+        phone. Shared-group data is kept while the group exists.
+      </p>
+      <p>
+        To ask for your account and the related server data to be deleted, email
+        <a href="mailto:developer.ddebortoli@gmail.com">developer.ddebortoli@gmail.com</a>.
+      </p>
+
+      <h2>Children</h2>
+      <p>La Cuentita is not directed at children.</p>
+
+      <h2>Changes</h2>
+      <p>
+        If this policy changes, the new version is published on this same page,
+        with an updated date.
+      </p>
+
+      <h2 id="terms">Terms of use</h2>
+      <p>
+        La Cuentita is for writing down and splitting expenses.
+        <strong>It does not move money</strong>, it does not make transfers, and
+        it does not replace the agreement between the people in the group.
+      </p>
+      <ul>
+        <li>Local groups are yours and stay on your phone.</li>
+        <li>
+          In a shared group, the person who created it can delete it for everyone.
+          Someone who was invited can leave; that does not delete the group or
+          their participant for the others.
+        </li>
+        <li>
+          The account number or alias you add is visible to the group. Add only
+          what you want to share.
+        </li>
+        <li>
+          The app is provided as it is. Balances are a help for the group, not an
+          accounting or legal record.
+        </li>
+      </ul>
+      <p>
+        Questions about these terms:
+        <a href="mailto:developer.ddebortoli@gmail.com">developer.ddebortoli@gmail.com</a>.
+      </p>
+    </article>
+  </main>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var es = document.getElementById('copy-es');
+      var en = document.getElementById('copy-en');
+      var langEs = document.getElementById('lang-es');
+      var langEn = document.getElementById('lang-en');
+      var themeButton = document.getElementById('theme');
+      var themeLabels = { es: { dark: 'Claro', light: 'Oscuro' }, en: { dark: 'Light', light: 'Dark' } };
+
+      function savedThemeIsLight() {
+        return localStorage.getItem('darkMode') === 'false';
+      }
+
+      function applyTheme(light) {
+        root.setAttribute('data-theme', light ? 'light' : 'dark');
+        localStorage.setItem('darkMode', light ? 'false' : 'true');
+        themeButton.setAttribute('aria-pressed', light ? 'false' : 'true');
+        var lang = es.hidden ? 'en' : 'es';
+        themeButton.textContent = themeLabels[lang][light ? 'light' : 'dark'];
+      }
+
+      function applyLang(lang) {
+        var english = lang === 'en';
+        es.hidden = english;
+        en.hidden = !english;
+        root.lang = english ? 'en' : 'es';
+        document.title = english
+          ? 'Privacy and terms — La Cuentita'
+          : 'Privacidad y condiciones — La Cuentita';
+        langEs.setAttribute('aria-pressed', english ? 'false' : 'true');
+        langEn.setAttribute('aria-pressed', english ? 'true' : 'false');
+        localStorage.setItem('laCuentitaLegalLang', english ? 'en' : 'es');
+        applyTheme(root.getAttribute('data-theme') === 'light');
+      }
+
+      langEs.addEventListener('click', function () { applyLang('es'); });
+      langEn.addEventListener('click', function () { applyLang('en'); });
+      themeButton.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') !== 'light');
+      });
+
+      applyTheme(savedThemeIsLight());
+      applyLang(localStorage.getItem('laCuentitaLegalLang') === 'en' ? 'en' : 'es');
+    }());
+  </script>
+</body>
+</html>

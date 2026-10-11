@@ -339,6 +339,17 @@ const ProjectDetail = () => {
             ▶ Demo
           </Button>
         )}
+        {project.privacyUrl && (
+          <Button
+            as="a"
+            href={project.privacyUrl}
+            size="sm"
+            variant={'outline-' + theme.bsSecondaryVariant}
+            style={styles.btn}
+          >
+            Privacidad y condiciones
+          </Button>
+        )}
       </div>
 
       <hr style={styles.divider} />
